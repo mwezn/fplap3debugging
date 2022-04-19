@@ -1,4 +1,8 @@
 # wilkes_lap3_assignment-mwezn
+This was my debugging assignment for Futureproofs Lap3 challenge.
+The app is supposed to display sunrise & sunset times for major cities
+such as London, New York etc
+Technologies used are React, Redux & Jest to test
 
 ## Wins
 - [x] all React components imported
