@@ -20,7 +20,7 @@ function Search(){
     return (
         <div id="search">
             Where do you want to search?
-            <SearchForm getResult={()=>search()}/>
+            <SearchForm getResult={(searchTerm)=>search(searchTerm.location)}/>
 
             <h1>{location}</h1>
 

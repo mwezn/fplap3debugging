@@ -7,11 +7,11 @@ Technologies used are React, Redux & Jest to test
 ## Wins
 - [x] all React components imported
 - [x] All Navbar links work
+- [x] Can now search sunrise/sunset times by capital city. Added preventDefault to onSubmit handler
 ## Challenges
 
 - Tests are failing
-- Data undefined in Search component
-- Page reloads on submission & resets all data
+- No data displayed by default yet. Supposed to fetch London 
 
 ## Installation
 * clone this repo

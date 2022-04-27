@@ -11,14 +11,14 @@ function SearchForm({ getResult }) {
 
     const updateInput = e => {
         const input = e.target.value 
-        let n={location:input}
-        console.log(input)
+        let n={location:input.toLowerCase()}
+        console.log(location)
         setLocation(old=>{return {...old, ...n}})
     }
 
 
     return (
-        <form onSubmit={()=>handleSubmit()}>
+        <form onSubmit={(e)=>handleSubmit(e)}>
             <input type="text" onChange={(e)=>updateInput(e)} />
             <input type="submit" value="Search" />
         </form>
